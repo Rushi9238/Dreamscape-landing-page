@@ -163,7 +163,11 @@
                 line-height: 55px;
                 font-family: PlusJakartaSans;
                 font-weight: 500;
+                @media(max-width:767px){
+                    font-size: 34px;
+                    line-height: 45px;
 
+                }
                 span {
                     display: block;
                     color: #B8D200;
@@ -183,7 +187,9 @@
                 cursor: pointer;
                 border-radius: 0.25rem;
                 transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-
+                @media(max-width:767px){
+                    margin-top: 20px;
+                }
                 &:hover {
                     background: linear-gradient(90deg, rgba(219, 214, 65, 1) 0%, rgba(122, 168, 72, 1) 70%, rgba(10, 115, 80, 1) 100%);
                     color: #fff;
@@ -208,6 +214,10 @@
                     left: 0;
                     margin-top: 50px;
 
+                }
+                @media(max-width:767px){
+                    width: 550px;
+                    text-align: left;
                 }
             }
         }

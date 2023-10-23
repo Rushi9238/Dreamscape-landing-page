@@ -137,6 +137,12 @@
   font-family: PlusJakartaSans;
   font-weight: 500;
 }
+@media (max-width: 767px) {
+  .home-section .innerDiv .leftSide h1 {
+    font-size: 34px;
+    line-height: 45px;
+  }
+}
 .home-section .innerDiv .leftSide h1 span {
   display: block;
   color: #B8D200;
@@ -154,6 +160,11 @@
   cursor: pointer;
   border-radius: 0.25rem;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+@media (max-width: 767px) {
+  .home-section .innerDiv .leftSide button {
+    margin-top: 20px;
+  }
 }
 .home-section .innerDiv .leftSide button:hover {
   background: linear-gradient(90deg, rgb(219, 214, 65) 0%, rgb(122, 168, 72) 70%, rgb(10, 115, 80) 100%);
@@ -176,6 +187,12 @@
     top: 0;
     left: 0;
     margin-top: 50px;
+  }
+}
+@media (max-width: 767px) {
+  .home-section .innerDiv .rightSide img {
+    width: 550px;
+    text-align: left;
   }
 }
 
