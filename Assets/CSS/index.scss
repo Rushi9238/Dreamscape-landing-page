@@ -28,8 +28,7 @@
                 height: 100%;
 
                 li {
-                    font-family: PlusJakartaSans;
-                    font-size: 16px;
+                    
                     color: #fff;
                     margin: 0 6px;
                     padding: 10px 20px;
@@ -38,7 +37,12 @@
                     justify-content: center;
                     align-items: center;
                     cursor: pointer;
-
+                    a{
+                        text-decoration: none;
+                        color: #fff;
+                        font-family: PlusJakartaSans;
+                    font-size: 16px;
+                    }
                     &.active {
                         // border: 1px solid blue;
                         background-color: rgba(0, 0, 0, 0.5);
@@ -123,7 +127,12 @@
                     margin: 0 6px;
                     padding: 10px 20px;
                     border-radius: 30px;
-
+                    a{
+                        text-decoration: none;
+                        color: #fff;
+                        font-family: PlusJakartaSans;
+                    font-size: 16px;
+                    }
                     &.active {
                         // border: 1px solid blue;
                         background-color: rgba(0, 0, 0, 0.5);
