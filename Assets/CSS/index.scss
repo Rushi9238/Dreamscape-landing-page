@@ -168,6 +168,10 @@
                     line-height: 45px;
 
                 }
+                @media(max-width:499px){
+                    font-size: 28px;
+                    line-height: 34px;
+                }
                 span {
                     display: block;
                     color: #B8D200;
@@ -219,6 +223,13 @@
                     width: 550px;
                     text-align: left;
                 }
+                @media(max-width:576px){
+                    width: 400px;
+
+                }
+                @media(max-width:399px){
+                    width: 320px;
+                }
             }
         }
     }
@@ -255,6 +266,11 @@
                 font-size: 26px;
                 line-height: 34px;
                 text-align: center;
+            }
+            @media(max-width:499px){
+                font-size: 22px;
+                line-height: 28px;
+
             }
         }
     }
@@ -321,6 +337,10 @@
                             font-size: 16px;
                             line-height: 28px;
                             margin-bottom: 15px;
+                            @media(max-width:499px){
+                                font-size: 16px;
+                                line-height: 26px;
+                            }
                         }
 
                         .accordion-body {
@@ -344,6 +364,16 @@
                     @media(max-width:991px){
                        top: 40%;
                     }
+                    @media(max-width:540px){
+                        top: 50%;
+                    }
+                    @media(max-width:410px){
+                        top: 57%;
+                    }
+                    @media(max-width:350px){
+                        top: 60%;
+                    }
+
                 }
 
                 .accordion-button:not(.collapsed) {
@@ -374,6 +404,9 @@
                     @media(max-width:991px){
                            top: 98%;
                     }
+                    @media(max-width:540px){
+                        // top: 50%;
+                    }
 
 
                 }
@@ -382,6 +415,9 @@
         .img-div{
             @media(max-width:991px){
                 text-align: center;
+            }
+            @media(max-width:499px){
+                margin-top: 30px;
             }
         }
     }
@@ -397,6 +433,9 @@
 
     .upperDiv {
         margin-bottom: 60px;
+        @media(max-width:576px){
+            margin-bottom: 30px;
+        }
 
         h2 {
             font-family: PlusJakartaSans;
@@ -443,7 +482,9 @@
             text-align: center;
             transition: all 0.3s ease;
             margin-bottom: 30px;
-
+            @media(max-width:576px){
+                padding: 15px 30px;
+            }
             &:hover {
                 box-shadow: 0px 46px 77px 0px rgba(10, 43, 83, 0.1490196078);
             }
@@ -746,6 +787,9 @@
             font-weight: 300;
             margin-bottom: 20px;
             color: #fff;
+            @media(max-width:576px){
+                font-size: 24px;
+            }
         }
 
         p {
@@ -818,10 +862,16 @@
 
     .content {
         .leftSide {
+            @media(max-width:991px){
+                margin-bottom: 30px;
+            }
             h3 {
                 font-family: PlusJakartaSans600;
                 font-size: 24px;
                 margin-bottom: 20px;
+                @media(max-width:991px){
+                    margin-bottom: 8px;
+                }
             }
 
             .text {
