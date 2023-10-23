@@ -20,7 +20,13 @@ window.addEventListener('scroll', function() {
   const header=document.getElementById('header')
 const nav_btn=document.querySelector('.menuBtn')
 const close_btn=document.querySelector('.close-sideBar')
-
+const closeMenu=document.querySelector('.closeMenu')
+const closeMenu1=document.querySelector('.closeMenu1')
+const closeMenu2=document.querySelector('.closeMenu2')
+const closeMenu3=document.querySelector('.closeMenu3')
+const closeMenu4=document.querySelector('.closeMenu4')
+const closeMenu5=document.querySelector('.closeMenu5')
+const closeMenu6=document.querySelector('.closeMenu6')
 function toggaleNavBar(){
     // console.log(nav_btn);
     // console.log('hello');
@@ -28,6 +34,13 @@ function toggaleNavBar(){
 }
 close_btn.addEventListener('click',()=> toggaleNavBar())
 nav_btn.addEventListener('click',()=> toggaleNavBar())
+closeMenu.addEventListener('click',()=> toggaleNavBar())
+closeMenu1.addEventListener('click',()=> toggaleNavBar())
+closeMenu2.addEventListener('click',()=> toggaleNavBar())
+closeMenu3.addEventListener('click',()=> toggaleNavBar())
+closeMenu4.addEventListener('click',()=> toggaleNavBar())
+closeMenu5.addEventListener('click',()=> toggaleNavBar())
+closeMenu6.addEventListener('click',()=> toggaleNavBar())
 
 
 $('.find-products-carousel').owlCarousel({
