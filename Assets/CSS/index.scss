@@ -251,6 +251,11 @@
                 line-height: 42px;
                 margin-bottom: 40px;
             }
+            @media(max-width:767px){
+                font-size: 26px;
+                line-height: 34px;
+                text-align: center;
+            }
         }
     }
 
@@ -262,6 +267,9 @@
         box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
         @media(max-width:991px){
             padding: 20px;
+        }
+        @media(max-width:767px){
+            padding: 10px;
         }
         .customAcco {
             .accordion-item {
@@ -288,6 +296,11 @@
                             @media(max-width:991px){
                                 margin-top: 20px;
                                 margin-bottom: 10px;
+                            }
+                            @media(max-width:767px){
+                                font-size: 32px;
+                                padding-bottom: 15px;
+                                margin-top: 0;
                             }
                             &::before {
                                 position: absolute;
@@ -393,7 +406,12 @@
             padding-bottom: 30px;
             position: relative;
             text-align: center;
-
+            @media(max-width:767px){
+                font-size: 32px;
+                padding-bottom: 15px;
+                margin-top: 0;
+                line-height: 44px;
+            }
             &::before {
                 position: absolute;
                 content: "";
@@ -474,7 +492,12 @@
             margin-bottom: 20px;
             text-align: center;
             color: #fff;
-
+            @media(max-width:767px){
+                font-size: 32px;
+                padding-bottom: 15px;
+                margin-top: 0;
+                line-height: 44px;
+            }
             &::before {
                 position: absolute;
                 content: "";
@@ -522,7 +545,12 @@
             margin-bottom: 20px;
             text-align: center;
             color: #000;
-
+            @media(max-width:767px){
+                font-size: 32px;
+                padding-bottom: 15px;
+                margin-top: 0;
+                line-height: 44px;
+            }
             &::before {
                 position: absolute;
                 content: "";
@@ -689,7 +717,12 @@
             margin-bottom: 20px;
             text-align: left;
             color: #fff;
-
+            @media(max-width:767px){
+                font-size: 32px;
+                padding-bottom: 15px;
+                margin-top: 0;
+                line-height: 44px;
+            }
             &::before {
                 position: absolute;
                 content: "";
@@ -750,7 +783,12 @@
             margin-bottom: 20px;
             text-align: center;
             color: #000;
-
+            @media(max-width:767px){
+                font-size: 32px;
+                padding-bottom: 15px;
+                margin-top: 0;
+                line-height: 44px;
+            }
             &::before {
                 position: absolute;
                 content: "";

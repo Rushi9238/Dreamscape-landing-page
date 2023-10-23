@@ -223,6 +223,13 @@
     margin-bottom: 40px;
   }
 }
+@media (max-width: 767px) {
+  .aboutUs-section .upperDiv .quote {
+    font-size: 26px;
+    line-height: 34px;
+    text-align: center;
+  }
+}
 .aboutUs-section .lowerDiv {
   padding: 30px;
   background: #F6FEFF;
@@ -232,6 +239,11 @@
 @media (max-width: 991px) {
   .aboutUs-section .lowerDiv {
     padding: 20px;
+  }
+}
+@media (max-width: 767px) {
+  .aboutUs-section .lowerDiv {
+    padding: 10px;
   }
 }
 .aboutUs-section .lowerDiv .customAcco .accordion-item {
@@ -257,6 +269,13 @@
   .aboutUs-section .lowerDiv .customAcco .accordion-item .accordion-button .textContaine h2 {
     margin-top: 20px;
     margin-bottom: 10px;
+  }
+}
+@media (max-width: 767px) {
+  .aboutUs-section .lowerDiv .customAcco .accordion-item .accordion-button .textContaine h2 {
+    font-size: 32px;
+    padding-bottom: 15px;
+    margin-top: 0;
   }
 }
 .aboutUs-section .lowerDiv .customAcco .accordion-item .accordion-button .textContaine h2::before {
@@ -352,6 +371,14 @@
   position: relative;
   text-align: center;
 }
+@media (max-width: 767px) {
+  .servies-section .upperDiv h2 {
+    font-size: 32px;
+    padding-bottom: 15px;
+    margin-top: 0;
+    line-height: 44px;
+  }
+}
 .servies-section .upperDiv h2::before {
   position: absolute;
   content: "";
@@ -417,6 +444,14 @@
   text-align: center;
   color: #fff;
 }
+@media (max-width: 767px) {
+  .workFlow-section .upperDiv h2 {
+    font-size: 32px;
+    padding-bottom: 15px;
+    margin-top: 0;
+    line-height: 44px;
+  }
+}
 .workFlow-section .upperDiv h2::before {
   position: absolute;
   content: "";
@@ -458,6 +493,14 @@
   margin-bottom: 20px;
   text-align: center;
   color: #000;
+}
+@media (max-width: 767px) {
+  .advantage-section .upperDiv h2 {
+    font-size: 32px;
+    padding-bottom: 15px;
+    margin-top: 0;
+    line-height: 44px;
+  }
 }
 .advantage-section .upperDiv h2::before {
   position: absolute;
@@ -607,6 +650,14 @@
   text-align: left;
   color: #fff;
 }
+@media (max-width: 767px) {
+  .partnerships-section .innerDiv h2 {
+    font-size: 32px;
+    padding-bottom: 15px;
+    margin-top: 0;
+    line-height: 44px;
+  }
+}
 .partnerships-section .innerDiv h2::before {
   position: absolute;
   content: "";
@@ -660,6 +711,14 @@
   margin-bottom: 20px;
   text-align: center;
   color: #000;
+}
+@media (max-width: 767px) {
+  .contact-section .text-content h2 {
+    font-size: 32px;
+    padding-bottom: 15px;
+    margin-top: 0;
+    line-height: 44px;
+  }
 }
 .contact-section .text-content h2::before {
   position: absolute;
